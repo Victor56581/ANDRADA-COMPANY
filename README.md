@@ -1,5 +1,3 @@
-# ANDRADA-COMPANY
-Site de transporte de carretas basculantes
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -480,6 +478,7 @@ function importXLS(){
   };
   reader.readAsArrayBuffer(f);
 }
+
 function renderExport(){ document.getElementById('contentArea').innerHTML = `<h2 style="color:var(--accent)">Exportar XLSX</h2><button class="menu-btn" onclick="exportXLS()">Exportar XLSX</button>`; }
 function exportXLS(){
   const db = loadKey(DB_KEY);
@@ -552,4 +551,3 @@ window.onload = function(){
 </script>
 </body>
 </html>
-
